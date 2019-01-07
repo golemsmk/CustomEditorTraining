@@ -17,4 +17,5 @@ public class ExcelInspector : Editor
     {
         GUILayout.Button("Press for fun, not gonna edit that excel file");
     }
+
 }
