@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 255626048}
   - component: {fileID: 255626047}
   - component: {fileID: 255626050}
+  - component: {fileID: 255626051}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -206,6 +207,18 @@ MonoBehaviour:
   example:
     minHp: 37891
     maxHp: 83038
+--- !u!114 &255626051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255626046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db86384e91190549b2e2f66a3ed06f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: []
 --- !u!1001 &504785020
 Prefab:
   m_ObjectHideFlags: 0
