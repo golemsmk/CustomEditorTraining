@@ -5,5 +5,5 @@ using UnityEngine;
 public class ReoderableListExample : MonoBehaviour {
 
     [SerializeField]
-    string[] text;
+    Character[] character;
 }

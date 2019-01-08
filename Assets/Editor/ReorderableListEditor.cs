@@ -9,8 +9,10 @@ public class ReorderableListEditor : Editor {
 
     void OnEnable()
     {
-        var prop = serializedObject.FindProperty("text");
+        var prop = serializedObject.FindProperty("character");
         localReorderableList = new ReorderableList(serializedObject, prop);
+
+        localReorderableList.elementHeight = Mathf.Max(EditorGUIUtility.singleLineHeight*3+4,70);
 
         localReorderableList.drawElementCallback = (rect, index, isActive, isFocused)
             =>

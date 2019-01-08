@@ -1,9 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
-public class Character : MonoBehaviour {
+[Serializable]
+public class Character{
 
-    public int hp;
-    public ExampleProperty example;
+    [SerializeField]
+    int hp, str;
+    [SerializeField]
+    string name;
+    [SerializeField]
+    Texture icon;
 }
